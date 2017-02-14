@@ -14,11 +14,15 @@ var lastUpper = lastLetter.toUpperCase();
 
     alert(lastUpper);
 
-    
+var added = (lastUpper + firstUpper);
 
+    alert(added);
 
+var sentenceAdd = (sentence + added);
 
+    alert(sentenceAdd);
 
-// var firstLetter = function()
-//
-// var lastLetter
+var reverseString = function(str) {
+    alert(str.split("").reverse().join(""));
+}
+reverseString(sentenceAdd);
